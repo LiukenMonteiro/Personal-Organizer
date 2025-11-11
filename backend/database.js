@@ -77,7 +77,7 @@ async function fixExamsTable() {
     console.log('⚠️ Colunas já existem ou erro:', error.message);
   }
 }
-
+//test
 initDatabase();
 
 export { db, run, get, all };
