@@ -162,7 +162,7 @@ app.get('/api/habits/stats', authenticate, async (req, res) => {
     const { period } = req.query;
     const today = new Date();
     let startDate;
-    
+    //test
     if (period === 'week') startDate = new Date(today.setDate(today.getDate() - 7));
     else startDate = new Date(today.setDate(today.getDate() - 30));
     
